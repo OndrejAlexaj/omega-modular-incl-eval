@@ -97,8 +97,8 @@ def scatplot(df, params):
         params['filename'] = "fig_" + params['x'] + "_vs_" + params['y']
 
     pl = scatter_plot(df,
-                      xcol=params['x'] + '-States',
-                      ycol=params['y'] + '-States',
+                      xcol=params['x'],
+                      ycol=params['y'],
                       xname=params['xname'], yname=params['yname'],
                       domain=[1, params['max']],
                       tickCount=params['tickCount'],
