@@ -23,7 +23,7 @@ def scatter_plot_n(dfs, xcol, ycol, domain, colors, xname=None, yname=None, log=
     assert len(domain) == 2
     assert len(dfs) == len(colors)
 
-    POINT_SIZE = 1.5
+    POINT_SIZE = 3.5
     DASH_PATTERN = (0, (6, 2))
 
     if xname is None:
@@ -95,6 +95,10 @@ def scatplot(df, params):
         params['tickCount'] = 5
     if 'filename' not in params:
         params['filename'] = "fig_" + params['x'] + "_vs_" + params['y']
+    if 'states' in params and not params['states']:
+        df[params['x']] = df[params['x']].apply(lambda x: x*1000)
+        df[params['y']] = df[params['y']].apply(lambda x: x*1000)
+        params['filename'] += '_exectimes'
 
     pl = scatter_plot(df,
                       xcol=params['x'],
@@ -232,5 +236,9 @@ def sanitize_results(df, df_summary_states, timeout):
         if re.search('-runtime$', col):
             df[col].fillna(timeout, inplace=True)
             df.loc[df[col] < time_min, col] = time_min  # to remove 0 (in case of log graph)
+        
+        if re.search('-states_cnt$', col):
+            df[col].fillna(states_timeout, inplace=True)
+            df[col].replace(0, states_min, inplace=True) 
 
     return df
