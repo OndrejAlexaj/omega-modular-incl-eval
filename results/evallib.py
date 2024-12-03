@@ -96,8 +96,6 @@ def scatplot(df, params):
     if 'filename' not in params:
         params['filename'] = "fig_" + params['x'] + "_vs_" + params['y']
     if 'states' in params and not params['states']:
-        df[params['x']] = df[params['x']].apply(lambda x: x*1000)
-        df[params['y']] = df[params['y']].apply(lambda x: x*1000)
         params['filename'] += '_exectimes'
 
     pl = scatter_plot(df,
