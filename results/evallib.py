@@ -171,14 +171,14 @@ def print_classification(df):
 def summary_stats(df):
     summary = dict()
     for col in df.columns:
-        if re.search('-States$', col) or re.search('-runtime$', col):
-            summary[col] = dict()
-            summary[col]['max'] = df[col].max()
-            summary[col]['min'] = df[col].min()
-            summary[col]['mean'] = df[col].mean()
-            summary[col]['median'] = df[col].median()
-            summary[col]['std'] = df[col].std()
-            summary[col]['timeouts'] = df[col].isna().sum()
+        # if re.search('-States$', col) or re.search('-runtime$', col):
+        summary[col] = dict()
+        summary[col]['max'] = df[col].max()
+        summary[col]['min'] = df[col].min()
+        summary[col]['mean'] = df[col].mean()
+        summary[col]['median'] = df[col].median()
+        summary[col]['std'] = df[col].std()
+        summary[col]['timeouts'] = df[col].isna().sum()
     return pd.DataFrame(summary).transpose()
 
 
