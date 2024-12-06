@@ -49,8 +49,13 @@ def scatter_plot_n(dfs, xcol, ycol, domain, colors, xname=None, yname=None, log=
 
         dfs = new_df_list
     
+    pref_1 = xname.split("-")[0]
+    pref_2 = yname.split("-")[0]
     for df in dfs:
-        df['point_color'] = df['autfilt-retcode'].apply(lambda x: 'red' if x == 1 else 'green' if x == 0 else 'default')
+        df['retcode'] = df[pref_1+'-retcode'].fillna(df[pref_2+'-retcode'])
+        df['point_color'] = df['retcode'].apply(
+            lambda x: 'red' if x == 1 else 'green' if x == 0 else 'default'
+        )
 
     # generate scatter plot
     scatter = p9.ggplot()
