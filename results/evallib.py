@@ -232,7 +232,7 @@ def sanitize_results(df, df_summary_states, timeout):
     states_min = 1
     states_max = df_summary_states['max'].max()
     states_timeout = states_max * 1.1
-    time_min = 0.01
+    time_min = 0.001
 
     # sanitizing NAs
     for col in df.columns:
