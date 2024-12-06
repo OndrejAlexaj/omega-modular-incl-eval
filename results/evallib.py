@@ -8,6 +8,10 @@ import pandas as pd
 import plotnine as p9
 import re as re
 
+import warnings
+warnings.simplefilter(action='ignore', category=FutureWarning)
+
+
 # Read a file into a data frame
 def read_file(filename):
     """Reads a CSV file into Panda's data frame"""
@@ -46,7 +50,7 @@ def scatter_plot_n(dfs, xcol, ycol, domain, colors, xname=None, yname=None, log=
         dfs = new_df_list
     
     for df in dfs:
-        df['point_color'] = df[xcol].apply(lambda x: 'red' if x == 1 else 'green')
+        df['point_color'] = df['autfilt-retcode'].apply(lambda x: 'red' if x == 1 else 'green' if x == 0 else 'default')
 
     # generate scatter plot
     scatter = p9.ggplot()
@@ -74,6 +78,8 @@ def scatter_plot_n(dfs, xcol, ycol, domain, colors, xname=None, yname=None, log=
     scatter += p9.geom_abline(intercept=0, slope=1, linetype=DASH_PATTERN)  # diagonal
     scatter += p9.geom_vline(xintercept=domain[1], linetype=DASH_PATTERN)  # vertical rule
     scatter += p9.geom_hline(yintercept=domain[1], linetype=DASH_PATTERN)  # horizontal rule
+
+    scatter += p9.scale_color_manual(values={'red': 'red', 'green': 'green'})
 
     res = scatter
 
