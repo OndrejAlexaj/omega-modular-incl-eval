@@ -73,6 +73,7 @@ def scatter_plot_n(dfs, xcol, ycol, domain, colors, xname=None, yname=None, log=
     scatter += p9.theme(panel_grid_minor=p9.element_blank())
     scatter += p9.theme(figure_size=(width, height))
     scatter += p9.theme(text=p9.element_text(size=24, color="black"))
+    scatter += p9.coord_fixed(ratio=1)
 
     # generate additional lines
     scatter += p9.geom_abline(intercept=0, slope=1, linetype=DASH_PATTERN)  # diagonal
