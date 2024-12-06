@@ -79,7 +79,7 @@ def scatter_plot_n(dfs, xcol, ycol, domain, colors, xname=None, yname=None, log=
     scatter += p9.geom_vline(xintercept=domain[1], linetype=DASH_PATTERN)  # vertical rule
     scatter += p9.geom_hline(yintercept=domain[1], linetype=DASH_PATTERN)  # horizontal rule
 
-    scatter += p9.scale_color_manual(values={'red': 'red', 'green': 'green'})
+    scatter += p9.scale_color_manual(values={'red': 'red', 'green': 'green'}, labels={'red': 'UNSAT', 'green': 'SAT', 'default': 'TO'},)
 
     res = scatter
 
