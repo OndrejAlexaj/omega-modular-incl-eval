@@ -44,13 +44,16 @@ def scatter_plot_n(dfs, xcol, ycol, domain, colors, xname=None, yname=None, log=
             new_df_list.append(new_df)
 
         dfs = new_df_list
+    
+    for df in dfs:
+        df['point_color'] = df[xcol].apply(lambda x: 'red' if x == 1 else 'green')
 
     # generate scatter plot
     scatter = p9.ggplot()
     scatter += p9.aes(x=xcol, y=ycol)
     for (df, color) in zip(dfs, colors):
-        scatter += p9.geom_point(size=POINT_SIZE, na_rm=True, data=df, color=color, alpha=0.5)
-        scatter += p9.geom_rug(na_rm=True, sides="tr", data=df, color=color, alpha=0.05)
+        scatter += p9.geom_point(size=POINT_SIZE, na_rm=True, data=df, mapping=p9.aes(color='point_color'), alpha=0.5)
+        scatter += p9.geom_rug(na_rm=True, sides="tr", data=df, mapping=p9.aes(color='point_color'), alpha=0.05)
     scatter += p9.labs(x=xname, y=yname)
 
     if log:  # log scale
