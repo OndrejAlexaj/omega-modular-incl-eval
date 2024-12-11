@@ -50,55 +50,107 @@ execute;kofola_no_preproc_cnt;automata/rabit/notincluded/philsv4/philsV4A.hoa;au
 execute;kofola_no_preproc;automata/rabit/notincluded/philsv4/philsV4A.hoa;automata/rabit/notincluded/philsv4/philsV4B.hoa
 execute;autfilt_cnt;automata/rabit/notincluded/philsv4/philsV4A.hoa;automata/rabit/notincluded/philsv4/philsV4B.hoa
 execute;autfilt;automata/rabit/notincluded/philsv4/philsV4A.hoa;automata/rabit/notincluded/philsv4/philsV4B.hoa
-finished;kofola_no_preproc_cnt;automata/rabit/included/bakery/bakeryA.hoa;automata/rabit/included/bakery/bakeryB.hoa;1;3;;16.82
-finished;kofola_no_preproc;automata/rabit/included/bakery/bakeryA.hoa;automata/rabit/included/bakery/bakeryB.hoa;1;;;16.99
-finished;autfilt_cnt;automata/rabit/included/bakery/bakeryA.hoa;automata/rabit/included/bakery/bakeryB.hoa;1;248151;;2.8
-finished;autfilt;automata/rabit/included/bakery/bakeryA.hoa;automata/rabit/included/bakery/bakeryB.hoa;1;;;2.6
-finished;kofola_no_preproc_cnt;automata/rabit/included/bakeryv2/bakeryV2A.hoa;automata/rabit/included/bakeryv2/bakeryV2B.hoa;0;9989479;;469.87
-finished;autfilt_cnt;automata/rabit/included/bakeryv2/bakeryV2A.hoa;automata/rabit/included/bakeryv2/bakeryV2B.hoa;0;51912;;1.93
-finished;autfilt;automata/rabit/included/bakeryv2/bakeryV2A.hoa;automata/rabit/included/bakeryv2/bakeryV2B.hoa;0;;;2.07
-finished;kofola_no_preproc;automata/rabit/included/bakeryv2/bakeryV2A.hoa;automata/rabit/included/bakeryv2/bakeryV2B.hoa;0;;;477.98
-finished;kofola_no_preproc_cnt;automata/rabit/included/fischer/fischerA.hoa;automata/rabit/included/fischer/fischerB.hoa;0;221616;;61.21
-finished;autfilt_cnt;automata/rabit/included/fischer/fischerA.hoa;automata/rabit/included/fischer/fischerB.hoa;0;3550;;0.43
-finished;autfilt;automata/rabit/included/fischer/fischerA.hoa;automata/rabit/included/fischer/fischerB.hoa;0;;;0.44
-error;kofola_no_preproc_cnt;automata/rabit/included/fischerv2/fischerV2A.hoa;automata/rabit/included/fischerv2/fischerV2B.hoa;kofola_no_preproc_cnt: /home/xalexa09/kofola/src/complement_alg_safra.cpp:491: virtual spot::acc_cond kofola::complement_safra::get_acc_cond(): Assertion `false' failed.###bin/kofola_no_preproc_cnt-wrap.sh: line 22: 120760 Aborted                 (core dumped) ./bin/kofola_no_preproc_cnt --inclusion ${A} ${B} ${params} > ${TMP_OUT}###real 0.17###user 0.01###sys 0.00
-error;kofola_no_preproc;automata/rabit/included/fischerv2/fischerV2A.hoa;automata/rabit/included/fischerv2/fischerV2B.hoa;kofola_no_preproc: /home/xalexa09/kofola/src/complement_alg_safra.cpp:491: virtual spot::acc_cond kofola::complement_safra::get_acc_cond(): Assertion `false' failed.###bin/kofola_no_preproc-wrap.sh: line 22: 120768 Aborted                 (core dumped) ./bin/kofola_no_preproc --inclusion ${A} ${B} ${params} > ${TMP_OUT}###real 0.08###user 0.00###sys 0.00
-finished;autfilt_cnt;automata/rabit/included/fischerv2/fischerV2A.hoa;automata/rabit/included/fischerv2/fischerV2B.hoa;0;1427;;0.01
+finished;kofola_no_preproc_cnt;automata/rabit/included/bakery/bakeryA.hoa;automata/rabit/included/bakery/bakeryB.hoa;1;3;;17.38
+finished;kofola_no_preproc;automata/rabit/included/bakery/bakeryA.hoa;automata/rabit/included/bakery/bakeryB.hoa;1;;;18.29
+finished;autfilt_cnt;automata/rabit/included/bakery/bakeryA.hoa;automata/rabit/included/bakery/bakeryB.hoa;1;248151;;2.64
+finished;autfilt;automata/rabit/included/bakery/bakeryA.hoa;automata/rabit/included/bakery/bakeryB.hoa;1;;;2.31
+finished;kofola_no_preproc;automata/rabit/included/bakeryv2/bakeryV2A.hoa;automata/rabit/included/bakeryv2/bakeryV2B.hoa;0;;;469.78
+finished;kofola_no_preproc_cnt;automata/rabit/included/bakeryv2/bakeryV2A.hoa;automata/rabit/included/bakeryv2/bakeryV2B.hoa;0;9989479;;470.95
+finished;autfilt_cnt;automata/rabit/included/bakeryv2/bakeryV2A.hoa;automata/rabit/included/bakeryv2/bakeryV2B.hoa;0;51912;;2.1
+finished;autfilt;automata/rabit/included/bakeryv2/bakeryV2A.hoa;automata/rabit/included/bakeryv2/bakeryV2B.hoa;0;;;1.8
+finished;kofola_no_preproc_cnt;automata/rabit/included/fischer/fischerA.hoa;automata/rabit/included/fischer/fischerB.hoa;0;221616;;62.31
+finished;kofola_no_preproc;automata/rabit/included/fischer/fischerA.hoa;automata/rabit/included/fischer/fischerB.hoa;0;;;62.21
+finished;autfilt_cnt;automata/rabit/included/fischer/fischerA.hoa;automata/rabit/included/fischer/fischerB.hoa;0;3550;;0.49
+error;kofola_no_preproc_cnt;automata/rabit/included/fischerv2/fischerV2A.hoa;automata/rabit/included/fischerv2/fischerV2B.hoa;kofola_no_preproc_cnt: /home/xalexa09/kofola/src/complement_alg_safra.cpp:491: virtual spot::acc_cond kofola::complement_safra::get_acc_cond(): Assertion `false' failed.###bin/kofola_no_preproc_cnt-wrap.sh: line 22: 140855 Aborted                 (core dumped) ./bin/kofola_no_preproc_cnt --inclusion ${A} ${B} ${params} > ${TMP_OUT}###real 0.16###user 0.01###sys 0.00
+finished;autfilt;automata/rabit/included/fischer/fischerA.hoa;automata/rabit/included/fischer/fischerB.hoa;0;;;0.5
+error;kofola_no_preproc;automata/rabit/included/fischerv2/fischerV2A.hoa;automata/rabit/included/fischerv2/fischerV2B.hoa;kofola_no_preproc: /home/xalexa09/kofola/src/complement_alg_safra.cpp:491: virtual spot::acc_cond kofola::complement_safra::get_acc_cond(): Assertion `false' failed.###bin/kofola_no_preproc-wrap.sh: line 22: 140863 Aborted                 (core dumped) ./bin/kofola_no_preproc --inclusion ${A} ${B} ${params} > ${TMP_OUT}###real 0.09###user 0.00###sys 0.00
 finished;autfilt;automata/rabit/included/fischerv2/fischerV2A.hoa;automata/rabit/included/fischerv2/fischerV2B.hoa;0;;;0.0
-error;kofola_no_preproc_cnt;automata/rabit/included/fischerv3/fischerV3A.hoa;automata/rabit/included/fischerv3/fischerV3B.hoa;kofola_no_preproc_cnt: /home/xalexa09/kofola/src/complement_alg_safra.cpp:491: virtual spot::acc_cond kofola::complement_safra::get_acc_cond(): Assertion `false' failed.###bin/kofola_no_preproc_cnt-wrap.sh: line 22: 120799 Aborted                 (core dumped) ./bin/kofola_no_preproc_cnt --inclusion ${A} ${B} ${params} > ${TMP_OUT}###real 0.61###user 0.52###sys 0.01
-error;kofola_no_preproc;automata/rabit/included/fischerv3/fischerV3A.hoa;automata/rabit/included/fischerv3/fischerV3B.hoa;kofola_no_preproc: /home/xalexa09/kofola/src/complement_alg_safra.cpp:491: virtual spot::acc_cond kofola::complement_safra::get_acc_cond(): Assertion `false' failed.###bin/kofola_no_preproc-wrap.sh: line 22: 120807 Aborted                 (core dumped) ./bin/kofola_no_preproc --inclusion ${A} ${B} ${params} > ${TMP_OUT}###real 0.61###user 0.51###sys 0.02
+finished;autfilt_cnt;automata/rabit/included/fischerv2/fischerV2A.hoa;automata/rabit/included/fischerv2/fischerV2B.hoa;0;1427;;0.01
+error;kofola_no_preproc_cnt;automata/rabit/included/fischerv3/fischerV3A.hoa;automata/rabit/included/fischerv3/fischerV3B.hoa;kofola_no_preproc_cnt: /home/xalexa09/kofola/src/complement_alg_safra.cpp:491: virtual spot::acc_cond kofola::complement_safra::get_acc_cond(): Assertion `false' failed.###bin/kofola_no_preproc_cnt-wrap.sh: line 22: 140892 Aborted                 (core dumped) ./bin/kofola_no_preproc_cnt --inclusion ${A} ${B} ${params} > ${TMP_OUT}###real 0.60###user 0.51###sys 0.02
+error;kofola_no_preproc;automata/rabit/included/fischerv3/fischerV3A.hoa;automata/rabit/included/fischerv3/fischerV3B.hoa;kofola_no_preproc: /home/xalexa09/kofola/src/complement_alg_safra.cpp:491: virtual spot::acc_cond kofola::complement_safra::get_acc_cond(): Assertion `false' failed.###bin/kofola_no_preproc-wrap.sh: line 22: 140899 Aborted                 (core dumped) ./bin/kofola_no_preproc --inclusion ${A} ${B} ${params} > ${TMP_OUT}###real 0.62###user 0.51###sys 0.03
 finished;autfilt_cnt;automata/rabit/included/fischerv3/fischerV3A.hoa;automata/rabit/included/fischerv3/fischerV3B.hoa;0;1856;;0.02
 finished;autfilt;automata/rabit/included/fischerv3/fischerV3A.hoa;automata/rabit/included/fischerv3/fischerV3B.hoa;0;;;0.01
-error;kofola_no_preproc_cnt;automata/rabit/included/fischerv4/fischerV4A.hoa;automata/rabit/included/fischerv4/fischerV4B.hoa;kofola_no_preproc_cnt: /home/xalexa09/kofola/src/complement_alg_safra.cpp:491: virtual spot::acc_cond kofola::complement_safra::get_acc_cond(): Assertion `false' failed.###bin/kofola_no_preproc_cnt-wrap.sh: line 22: 120838 Aborted                 (core dumped) ./bin/kofola_no_preproc_cnt --inclusion ${A} ${B} ${params} > ${TMP_OUT}###real 0.46###user 0.39###sys 0.00
-error;kofola_no_preproc;automata/rabit/included/fischerv4/fischerV4A.hoa;automata/rabit/included/fischerv4/fischerV4B.hoa;kofola_no_preproc: /home/xalexa09/kofola/src/complement_alg_safra.cpp:491: virtual spot::acc_cond kofola::complement_safra::get_acc_cond(): Assertion `false' failed.###bin/kofola_no_preproc-wrap.sh: line 22: 120846 Aborted                 (core dumped) ./bin/kofola_no_preproc --inclusion ${A} ${B} ${params} > ${TMP_OUT}###real 0.47###user 0.38###sys 0.01
-error;autfilt_cnt;automata/rabit/included/fischerv4/fischerV4A.hoa;automata/rabit/included/fischerv4/fischerV4B.hoa;autfilt: Too many acceptance sets used.  The limit is 32.######If you do not mind a slowdown, you could try recompiling Spot with a larger limit.###See the --enable-max-accsets=N configure option.######If you believe Spot could be improved to solve your problem###using the current limit, please email <spot@lrde.epita.fr>.###real 2.23###user 2.22###sys 0.00
-finished;kofola_no_preproc;automata/rabit/included/fischer/fischerA.hoa;automata/rabit/included/fischer/fischerB.hoa;0;;;62.99
+error;kofola_no_preproc_cnt;automata/rabit/included/fischerv4/fischerV4A.hoa;automata/rabit/included/fischerv4/fischerV4B.hoa;kofola_no_preproc_cnt: /home/xalexa09/kofola/src/complement_alg_safra.cpp:491: virtual spot::acc_cond kofola::complement_safra::get_acc_cond(): Assertion `false' failed.###bin/kofola_no_preproc_cnt-wrap.sh: line 22: 140933 Aborted                 (core dumped) ./bin/kofola_no_preproc_cnt --inclusion ${A} ${B} ${params} > ${TMP_OUT}###real 0.47###user 0.37###sys 0.01
+error;kofola_no_preproc;automata/rabit/included/fischerv4/fischerV4A.hoa;automata/rabit/included/fischerv4/fischerV4B.hoa;kofola_no_preproc: /home/xalexa09/kofola/src/complement_alg_safra.cpp:491: virtual spot::acc_cond kofola::complement_safra::get_acc_cond(): Assertion `false' failed.###bin/kofola_no_preproc-wrap.sh: line 22: 140938 Aborted                 (core dumped) ./bin/kofola_no_preproc --inclusion ${A} ${B} ${params} > ${TMP_OUT}###real 0.48###user 0.39###sys 0.01
+error;autfilt_cnt;automata/rabit/included/fischerv4/fischerV4A.hoa;automata/rabit/included/fischerv4/fischerV4B.hoa;autfilt: Too many acceptance sets used.  The limit is 32.######If you do not mind a slowdown, you could try recompiling Spot with a larger limit.###See the --enable-max-accsets=N configure option.######If you believe Spot could be improved to solve your problem###using the current limit, please email <spot@lrde.epita.fr>.###real 2.36###user 2.35###sys 0.00
 finished;kofola_no_preproc_cnt;automata/rabit/included/peterson/petersonA.hoa;automata/rabit/included/peterson/petersonB.hoa;0;31;;0.0
 finished;kofola_no_preproc;automata/rabit/included/peterson/petersonA.hoa;automata/rabit/included/peterson/petersonB.hoa;0;;;0.0
+error;autfilt;automata/rabit/included/fischerv4/fischerV4A.hoa;automata/rabit/included/fischerv4/fischerV4B.hoa;./bin/autfilt: Too many acceptance sets used.  The limit is 32.######If you do not mind a slowdown, you could try recompiling Spot with a larger limit.###See the --enable-max-accsets=N configure option.######If you believe Spot could be improved to solve your problem###using the current limit, please email <spot@lrde.epita.fr>.###real 2.38###user 2.37###sys 0.00
 finished;autfilt_cnt;automata/rabit/included/peterson/petersonA.hoa;automata/rabit/included/peterson/petersonB.hoa;0;24;;0.0
 finished;autfilt;automata/rabit/included/peterson/petersonA.hoa;automata/rabit/included/peterson/petersonB.hoa;0;;;0.0
-finished;kofola_no_preproc_cnt;automata/rabit/included/phils/philsA.hoa;automata/rabit/included/phils/philsB.hoa;0;402;;0.09
 finished;kofola_no_preproc;automata/rabit/included/phils/philsA.hoa;automata/rabit/included/phils/philsB.hoa;0;;;0.09
+finished;kofola_no_preproc_cnt;automata/rabit/included/phils/philsA.hoa;automata/rabit/included/phils/philsB.hoa;0;402;;0.09
+finished;autfilt;automata/rabit/included/phils/philsA.hoa;automata/rabit/included/phils/philsB.hoa;0;;;0.02
 finished;autfilt_cnt;automata/rabit/included/phils/philsA.hoa;automata/rabit/included/phils/philsB.hoa;0;201;;0.02
-finished;autfilt;automata/rabit/included/phils/philsA.hoa;automata/rabit/included/phils/philsB.hoa;0;;;0.01
-error;autfilt;automata/rabit/included/fischerv4/fischerV4A.hoa;automata/rabit/included/fischerv4/fischerV4B.hoa;./bin/autfilt: Too many acceptance sets used.  The limit is 32.######If you do not mind a slowdown, you could try recompiling Spot with a larger limit.###See the --enable-max-accsets=N configure option.######If you believe Spot could be improved to solve your problem###using the current limit, please email <spot@lrde.epita.fr>.###real 2.29###user 2.28###sys 0.00
-finished;kofola_no_preproc_cnt;automata/rabit/notincluded/bakeryv3/bakeryV3A.hoa;automata/rabit/notincluded/bakeryv3/bakeryV3B.hoa;1;11;;16.81
-finished;autfilt_cnt;automata/rabit/notincluded/bakeryv3/bakeryV3A.hoa;automata/rabit/notincluded/bakeryv3/bakeryV3B.hoa;1;1149;;0.2
+finished;kofola_no_preproc_cnt;automata/rabit/notincluded/bakeryv3/bakeryV3A.hoa;automata/rabit/notincluded/bakeryv3/bakeryV3B.hoa;1;11;;16.74
+finished;autfilt_cnt;automata/rabit/notincluded/bakeryv3/bakeryV3A.hoa;automata/rabit/notincluded/bakeryv3/bakeryV3B.hoa;1;1149;;0.21
 finished;autfilt;automata/rabit/notincluded/bakeryv3/bakeryV3A.hoa;automata/rabit/notincluded/bakeryv3/bakeryV3B.hoa;1;;;0.19
-finished;kofola_no_preproc;automata/rabit/notincluded/bakeryv3/bakeryV3A.hoa;automata/rabit/notincluded/bakeryv3/bakeryV3B.hoa;1;;;17.05
-finished;kofola_no_preproc_cnt;automata/rabit/notincluded/fischerv5/fischerV5A.hoa;automata/rabit/notincluded/fischerv5/fischerV5B.hoa;1;4484;;2.37
-finished;autfilt_cnt;automata/rabit/notincluded/fischerv5/fischerV5A.hoa;automata/rabit/notincluded/fischerv5/fischerV5B.hoa;1;7219;;0.03
+finished;kofola_no_preproc;automata/rabit/notincluded/bakeryv3/bakeryV3A.hoa;automata/rabit/notincluded/bakeryv3/bakeryV3B.hoa;1;;;17.69
+finished;kofola_no_preproc_cnt;automata/rabit/notincluded/fischerv5/fischerV5A.hoa;automata/rabit/notincluded/fischerv5/fischerV5B.hoa;1;4484;;2.41
+finished;autfilt_cnt;automata/rabit/notincluded/fischerv5/fischerV5A.hoa;automata/rabit/notincluded/fischerv5/fischerV5B.hoa;1;7219;;0.02
 finished;autfilt;automata/rabit/notincluded/fischerv5/fischerV5A.hoa;automata/rabit/notincluded/fischerv5/fischerV5B.hoa;1;;;0.01
 finished;kofola_no_preproc_cnt;automata/rabit/notincluded/philsv2/philsV2A.hoa;automata/rabit/notincluded/philsv2/philsV2B.hoa;1;15;;0.02
-finished;kofola_no_preproc;automata/rabit/notincluded/philsv2/philsV2A.hoa;automata/rabit/notincluded/philsv2/philsV2B.hoa;1;;;0.02
+finished;kofola_no_preproc;automata/rabit/notincluded/philsv2/philsV2A.hoa;automata/rabit/notincluded/philsv2/philsV2B.hoa;1;;;0.01
 finished;autfilt_cnt;automata/rabit/notincluded/philsv2/philsV2A.hoa;automata/rabit/notincluded/philsv2/philsV2B.hoa;1;780;;0.0
 finished;autfilt;automata/rabit/notincluded/philsv2/philsV2A.hoa;automata/rabit/notincluded/philsv2/philsV2B.hoa;1;;;0.0
-finished;kofola_no_preproc_cnt;automata/rabit/notincluded/philsv3/philsV3A.hoa;automata/rabit/notincluded/philsv3/philsV3B.hoa;1;17;;0.02
+finished;kofola_no_preproc_cnt;automata/rabit/notincluded/philsv3/philsV3A.hoa;automata/rabit/notincluded/philsv3/philsV3B.hoa;1;17;;0.01
 finished;kofola_no_preproc;automata/rabit/notincluded/philsv3/philsV3A.hoa;automata/rabit/notincluded/philsv3/philsV3B.hoa;1;;;0.01
 finished;autfilt_cnt;automata/rabit/notincluded/philsv3/philsV3A.hoa;automata/rabit/notincluded/philsv3/philsV3B.hoa;1;780;;0.01
 finished;autfilt;automata/rabit/notincluded/philsv3/philsV3A.hoa;automata/rabit/notincluded/philsv3/philsV3B.hoa;1;;;0.0
 finished;kofola_no_preproc_cnt;automata/rabit/notincluded/philsv4/philsV4A.hoa;automata/rabit/notincluded/philsv4/philsV4B.hoa;1;1985;;0.16
-finished;kofola_no_preproc;automata/rabit/notincluded/philsv4/philsV4A.hoa;automata/rabit/notincluded/philsv4/philsV4B.hoa;1;;;0.16
+finished;kofola_no_preproc;automata/rabit/notincluded/fischerv5/fischerV5A.hoa;automata/rabit/notincluded/fischerv5/fischerV5B.hoa;1;;;2.48
+finished;kofola_no_preproc;automata/rabit/notincluded/philsv4/philsV4A.hoa;automata/rabit/notincluded/philsv4/philsV4B.hoa;1;;;0.17
 finished;autfilt_cnt;automata/rabit/notincluded/philsv4/philsV4A.hoa;automata/rabit/notincluded/philsv4/philsV4B.hoa;1;29539;;0.05
-finished;autfilt;automata/rabit/notincluded/philsv4/philsV4A.hoa;automata/rabit/notincluded/philsv4/philsV4B.hoa;1;;;0.03
-finished;kofola_no_preproc;automata/rabit/notincluded/fischerv5/fischerV5A.hoa;automata/rabit/notincluded/fischerv5/fischerV5B.hoa;1;;;2.46
+finished;autfilt;automata/rabit/notincluded/philsv4/philsV4A.hoa;automata/rabit/notincluded/philsv4/philsV4B.hoa;1;;;0.05
+execute;kofola_no_preproc_saturoff_cnt;automata/rabit/included/bakery/bakeryA.hoa;automata/rabit/included/bakery/bakeryB.hoa
+execute;kofola_no_preproc_saturoff;automata/rabit/included/bakery/bakeryA.hoa;automata/rabit/included/bakery/bakeryB.hoa
+execute;kofola_no_preproc_saturoff_cnt;automata/rabit/included/bakeryv2/bakeryV2A.hoa;automata/rabit/included/bakeryv2/bakeryV2B.hoa
+execute;kofola_no_preproc_saturoff;automata/rabit/included/bakeryv2/bakeryV2A.hoa;automata/rabit/included/bakeryv2/bakeryV2B.hoa
+execute;kofola_no_preproc_saturoff_cnt;automata/rabit/included/fischer/fischerA.hoa;automata/rabit/included/fischer/fischerB.hoa
+execute;kofola_no_preproc_saturoff;automata/rabit/included/fischer/fischerA.hoa;automata/rabit/included/fischer/fischerB.hoa
+execute;kofola_no_preproc_saturoff_cnt;automata/rabit/included/fischerv2/fischerV2A.hoa;automata/rabit/included/fischerv2/fischerV2B.hoa
+execute;kofola_no_preproc_saturoff;automata/rabit/included/fischerv2/fischerV2A.hoa;automata/rabit/included/fischerv2/fischerV2B.hoa
+execute;kofola_no_preproc_saturoff_cnt;automata/rabit/included/fischerv3/fischerV3A.hoa;automata/rabit/included/fischerv3/fischerV3B.hoa
+execute;kofola_no_preproc_saturoff;automata/rabit/included/fischerv3/fischerV3A.hoa;automata/rabit/included/fischerv3/fischerV3B.hoa
+execute;kofola_no_preproc_saturoff_cnt;automata/rabit/included/fischerv4/fischerV4A.hoa;automata/rabit/included/fischerv4/fischerV4B.hoa
+execute;kofola_no_preproc_saturoff;automata/rabit/included/fischerv4/fischerV4A.hoa;automata/rabit/included/fischerv4/fischerV4B.hoa
+execute;kofola_no_preproc_saturoff_cnt;automata/rabit/included/peterson/petersonA.hoa;automata/rabit/included/peterson/petersonB.hoa
+execute;kofola_no_preproc_saturoff;automata/rabit/included/peterson/petersonA.hoa;automata/rabit/included/peterson/petersonB.hoa
+execute;kofola_no_preproc_saturoff_cnt;automata/rabit/included/phils/philsA.hoa;automata/rabit/included/phils/philsB.hoa
+execute;kofola_no_preproc_saturoff;automata/rabit/included/phils/philsA.hoa;automata/rabit/included/phils/philsB.hoa
+execute;kofola_no_preproc_saturoff_cnt;automata/rabit/notincluded/bakeryv3/bakeryV3A.hoa;automata/rabit/notincluded/bakeryv3/bakeryV3B.hoa
+execute;kofola_no_preproc_saturoff;automata/rabit/notincluded/bakeryv3/bakeryV3A.hoa;automata/rabit/notincluded/bakeryv3/bakeryV3B.hoa
+execute;kofola_no_preproc_saturoff_cnt;automata/rabit/notincluded/fischerv5/fischerV5A.hoa;automata/rabit/notincluded/fischerv5/fischerV5B.hoa
+execute;kofola_no_preproc_saturoff;automata/rabit/notincluded/fischerv5/fischerV5A.hoa;automata/rabit/notincluded/fischerv5/fischerV5B.hoa
+execute;kofola_no_preproc_saturoff_cnt;automata/rabit/notincluded/philsv2/philsV2A.hoa;automata/rabit/notincluded/philsv2/philsV2B.hoa
+execute;kofola_no_preproc_saturoff;automata/rabit/notincluded/philsv2/philsV2A.hoa;automata/rabit/notincluded/philsv2/philsV2B.hoa
+execute;kofola_no_preproc_saturoff_cnt;automata/rabit/notincluded/philsv3/philsV3A.hoa;automata/rabit/notincluded/philsv3/philsV3B.hoa
+execute;kofola_no_preproc_saturoff;automata/rabit/notincluded/philsv3/philsV3A.hoa;automata/rabit/notincluded/philsv3/philsV3B.hoa
+execute;kofola_no_preproc_saturoff_cnt;automata/rabit/notincluded/philsv4/philsV4A.hoa;automata/rabit/notincluded/philsv4/philsV4B.hoa
+execute;kofola_no_preproc_saturoff;automata/rabit/notincluded/philsv4/philsV4A.hoa;automata/rabit/notincluded/philsv4/philsV4B.hoa
+finished;kofola_no_preproc_saturoff;automata/rabit/included/bakery/bakeryA.hoa;automata/rabit/included/bakery/bakeryB.hoa;1;;;4.21
+finished;kofola_no_preproc_saturoff_cnt;automata/rabit/included/bakery/bakeryA.hoa;automata/rabit/included/bakery/bakeryB.hoa;1;3;;4.21
+finished;kofola_no_preproc_saturoff;automata/rabit/included/bakeryv2/bakeryV2A.hoa;automata/rabit/included/bakeryv2/bakeryV2B.hoa;0;;;63.66
+finished;kofola_no_preproc_saturoff_cnt;automata/rabit/included/bakeryv2/bakeryV2A.hoa;automata/rabit/included/bakeryv2/bakeryV2B.hoa;0;1574968;;64.08
+finished;kofola_no_preproc_saturoff_cnt;automata/rabit/included/fischer/fischerA.hoa;automata/rabit/included/fischer/fischerB.hoa;0;221616;;53.36
+error;kofola_no_preproc_saturoff_cnt;automata/rabit/included/fischerv2/fischerV2A.hoa;automata/rabit/included/fischerv2/fischerV2B.hoa;"kofola_no_preproc_saturoff_cnt: /home/xalexa09/kofola/src/complement_alg_safra.cpp:491: virtual spot::acc_cond kofola::complement_safra::get_acc_cond(): Assertion `false' failed.###bin/kofola_no_preproc_cnt-wrap.sh: line 23: 198581 Aborted                 (core dumped) ./bin/kofola_no_preproc_saturoff_cnt --inclusion ${A} ${B} --params='merge_iwa=yes;merge_det=yes;' > ${TMP_OUT}###real 0.08###user 0.01###sys 0.00"
+error;kofola_no_preproc_saturoff;automata/rabit/included/fischerv2/fischerV2A.hoa;automata/rabit/included/fischerv2/fischerV2B.hoa;"kofola_no_preproc_saturoff: /home/xalexa09/kofola/src/complement_alg_safra.cpp:491: virtual spot::acc_cond kofola::complement_safra::get_acc_cond(): Assertion `false' failed.###bin/kofola_no_preproc-wrap.sh: line 23: 198589 Aborted                 (core dumped) ./bin/kofola_no_preproc_saturoff --inclusion ${A} ${B} --params='merge_iwa=yes;merge_det=yes;' > ${TMP_OUT}###real 0.08###user 0.00###sys 0.00"
+finished;kofola_no_preproc_saturoff;automata/rabit/included/fischer/fischerA.hoa;automata/rabit/included/fischer/fischerB.hoa;0;;;53.29
+error;kofola_no_preproc_saturoff_cnt;automata/rabit/included/fischerv3/fischerV3A.hoa;automata/rabit/included/fischerv3/fischerV3B.hoa;"kofola_no_preproc_saturoff_cnt: /home/xalexa09/kofola/src/complement_alg_safra.cpp:491: virtual spot::acc_cond kofola::complement_safra::get_acc_cond(): Assertion `false' failed.###bin/kofola_no_preproc_cnt-wrap.sh: line 23: 198595 Aborted                 (core dumped) ./bin/kofola_no_preproc_saturoff_cnt --inclusion ${A} ${B} --params='merge_iwa=yes;merge_det=yes;' > ${TMP_OUT}###real 0.61###user 0.53###sys 0.01"
+error;kofola_no_preproc_saturoff;automata/rabit/included/fischerv3/fischerV3A.hoa;automata/rabit/included/fischerv3/fischerV3B.hoa;"kofola_no_preproc_saturoff: /home/xalexa09/kofola/src/complement_alg_safra.cpp:491: virtual spot::acc_cond kofola::complement_safra::get_acc_cond(): Assertion `false' failed.###bin/kofola_no_preproc-wrap.sh: line 23: 198600 Aborted                 (core dumped) ./bin/kofola_no_preproc_saturoff --inclusion ${A} ${B} --params='merge_iwa=yes;merge_det=yes;' > ${TMP_OUT}###real 0.61###user 0.52###sys 0.02"
+error;kofola_no_preproc_saturoff_cnt;automata/rabit/included/fischerv4/fischerV4A.hoa;automata/rabit/included/fischerv4/fischerV4B.hoa;"kofola_no_preproc_saturoff_cnt: /home/xalexa09/kofola/src/complement_alg_safra.cpp:491: virtual spot::acc_cond kofola::complement_safra::get_acc_cond(): Assertion `false' failed.###bin/kofola_no_preproc_cnt-wrap.sh: line 23: 198608 Aborted                 (core dumped) ./bin/kofola_no_preproc_saturoff_cnt --inclusion ${A} ${B} --params='merge_iwa=yes;merge_det=yes;' > ${TMP_OUT}###real 0.47###user 0.38###sys 0.01"
+finished;kofola_no_preproc_saturoff_cnt;automata/rabit/included/peterson/petersonA.hoa;automata/rabit/included/peterson/petersonB.hoa;0;31;;0.0
+finished;kofola_no_preproc_saturoff;automata/rabit/included/peterson/petersonA.hoa;automata/rabit/included/peterson/petersonB.hoa;0;;;0.0
+finished;kofola_no_preproc_saturoff_cnt;automata/rabit/included/phils/philsA.hoa;automata/rabit/included/phils/philsB.hoa;0;402;;0.07
+finished;kofola_no_preproc_saturoff;automata/rabit/included/phils/philsA.hoa;automata/rabit/included/phils/philsB.hoa;0;;;0.07
+error;kofola_no_preproc_saturoff;automata/rabit/included/fischerv4/fischerV4A.hoa;automata/rabit/included/fischerv4/fischerV4B.hoa;"kofola_no_preproc_saturoff: /home/xalexa09/kofola/src/complement_alg_safra.cpp:491: virtual spot::acc_cond kofola::complement_safra::get_acc_cond(): Assertion `false' failed.###bin/kofola_no_preproc-wrap.sh: line 23: 198615 Aborted                 (core dumped) ./bin/kofola_no_preproc_saturoff --inclusion ${A} ${B} --params='merge_iwa=yes;merge_det=yes;' > ${TMP_OUT}###real 0.47###user 0.39###sys 0.00"
+finished;kofola_no_preproc_saturoff_cnt;automata/rabit/notincluded/bakeryv3/bakeryV3A.hoa;automata/rabit/notincluded/bakeryv3/bakeryV3B.hoa;1;11;;4.22
+finished;kofola_no_preproc_saturoff;automata/rabit/notincluded/bakeryv3/bakeryV3A.hoa;automata/rabit/notincluded/bakeryv3/bakeryV3B.hoa;1;;;4.19
+finished;kofola_no_preproc_saturoff_cnt;automata/rabit/notincluded/fischerv5/fischerV5A.hoa;automata/rabit/notincluded/fischerv5/fischerV5B.hoa;1;4484;;1.55
+finished;kofola_no_preproc_saturoff_cnt;automata/rabit/notincluded/philsv2/philsV2A.hoa;automata/rabit/notincluded/philsv2/philsV2B.hoa;1;15;;0.01
+finished;kofola_no_preproc_saturoff;automata/rabit/notincluded/philsv2/philsV2A.hoa;automata/rabit/notincluded/philsv2/philsV2B.hoa;1;;;0.01
+finished;kofola_no_preproc_saturoff_cnt;automata/rabit/notincluded/philsv3/philsV3A.hoa;automata/rabit/notincluded/philsv3/philsV3B.hoa;1;17;;0.01
+finished;kofola_no_preproc_saturoff;automata/rabit/notincluded/philsv3/philsV3A.hoa;automata/rabit/notincluded/philsv3/philsV3B.hoa;1;;;0.01
+finished;kofola_no_preproc_saturoff;automata/rabit/notincluded/fischerv5/fischerV5A.hoa;automata/rabit/notincluded/fischerv5/fischerV5B.hoa;1;;;1.55
+finished;kofola_no_preproc_saturoff_cnt;automata/rabit/notincluded/philsv4/philsV4A.hoa;automata/rabit/notincluded/philsv4/philsV4B.hoa;1;1985;;0.14
+finished;kofola_no_preproc_saturoff;automata/rabit/notincluded/philsv4/philsV4A.hoa;automata/rabit/notincluded/philsv4/philsV4B.hoa;1;;;0.13
