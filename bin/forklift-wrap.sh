@@ -19,7 +19,7 @@ TMP_OUT=$(mktemp)
 
 set -o pipefail
 # ./bin/autfilt --complement --ba ${params} ${TMP} > ${TMP_OUT}
-java -jar ./bin/forklift.jar ${B} ${A} > ${TMP_OUT}
+java -jar ./bin/forklift.jar ${A} ${B} > ${TMP_OUT}
 ret=$?
 
 rm ${TMP_OUT}

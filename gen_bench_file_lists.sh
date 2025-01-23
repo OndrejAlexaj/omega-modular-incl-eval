@@ -1,6 +1,7 @@
 #!/bin/bash
 
 target_dir="automata/rabit"
+mkdir -p bench
 output_file="bench/rabit_hoa"
 > "$output_file"
 find "$target_dir" -type f | sort | while read -r file; do
@@ -8,7 +9,10 @@ find "$target_dir" -type f | sort | while read -r file; do
         base="${file%A.hoa}" # Remove 'A.hoa' to get the base name
         pair="${base}B.hoa"  # Add 'B.hoa' to form the pair
         if [[ -f $pair ]]; then
+            # echo "$file;$file" >> "$output_file"
             echo "$file;$pair" >> "$output_file"
+            echo "$pair;$file" >> "$output_file"
+            # echo "$pair;$pair" >> "$output_file"
         fi
     fi
 done
@@ -21,7 +25,10 @@ find "$target_dir" -type f | sort | while read -r file; do
         base="${file%A.hoa}" # Remove 'A.hoa' to get the base name
         pair="${base}B.hoa"  # Add 'B.hoa' to form the pair
         if [[ -f $pair ]]; then
+            # echo "$file;$file" >> "$output_file"
             echo "$file;$pair" >> "$output_file"
+            echo "$pair;$file" >> "$output_file"
+            # echo "$pair;$pair" >> "$output_file"
         fi
     fi
 done
@@ -34,7 +41,10 @@ find "$target_dir" -type f | sort | while read -r file; do
         base="${file%A.ba.hoa}" # Remove 'A.ba.hoa' to get the base name
         pair="${base}B.ba.hoa"  # Add 'B.ba.hoa' to form the pair
         if [[ -f $pair ]]; then
+            # echo "$file;$file" >> "$output_file"
             echo "$file;$pair" >> "$output_file"
+            echo "$pair;$file" >> "$output_file"
+            # echo "$pair;$pair" >> "$output_file"
         fi
     fi
 done

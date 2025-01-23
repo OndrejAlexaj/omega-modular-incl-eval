@@ -22,6 +22,11 @@ set -o pipefail
 java -jar ./bin/RABIT.jar ${A} ${B} -fast > ${TMP_OUT}
 ret=$?
 
+# just hack so the pyco_proc identifies it as timeout
+if [ "$ret" -eq 1 ]; then
+  ret=3
+fi
+
 rm ${TMP_OUT}
 
 exit ${ret}

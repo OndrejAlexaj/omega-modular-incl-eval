@@ -17,7 +17,7 @@ params="$*"
 TMP_OUT=$(mktemp)
 set -o pipefail
 # ./bin/autfilt --complement --ba ${params} ${TMP} > ${TMP_OUT}
-./bin/autfilt --included-in="$B" "$A" > ${TMP_OUT}
+../spot-2.12.1/bin/autfilt_64 --included-in="$B" "$A" > ${TMP_OUT}
 ret=$?
 
 # cat ${TMP_OUT} | head -n 1

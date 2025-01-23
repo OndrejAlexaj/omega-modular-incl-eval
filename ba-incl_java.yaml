@@ -1,0 +1,9 @@
+rabit:
+  cmd: bin/rabit-wrap.sh $1 $2
+
+forklift:
+  cmd: bin/forklift-wrap.sh $1 $2
+
+bait:
+  cmd: bin/bait-wrap.sh $1 $2
+  

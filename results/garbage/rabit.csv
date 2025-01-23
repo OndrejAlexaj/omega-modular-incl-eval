@@ -1,0 +1,14 @@
+file1;file2;kofola_fast_early_cnt-runtime;kofola_fast_early_cnt-retcode;kofola_fast_early_cnt-states_cnt;kofola_fast_early_plus_cnt-runtime;kofola_fast_early_plus_cnt-retcode;kofola_fast_early_plus_cnt-states_cnt;kofola_fast_dir_cnt-runtime;kofola_fast_dir_cnt-retcode;kofola_fast_dir_cnt-states_cnt;kofola_fast_gfee_cnt-runtime;kofola_fast_gfee_cnt-retcode;kofola_fast_gfee_cnt-states_cnt;kofola_fast_cnt-runtime;kofola_fast_cnt-retcode;kofola_fast_cnt-states_cnt;autfilt_64_cnt-runtime;autfilt_64_cnt-retcode;autfilt_64_cnt-states_cnt
+automata/rabit/included/bakery/bakeryA.hoa;automata/rabit/included/bakery/bakeryB.hoa;0.41;1;3;0.41;1;3;2.47;1;3;0.41;1;3;0.39;1;3;2.53;1;248151
+automata/rabit/included/bakeryv2/bakeryV2A.hoa;automata/rabit/included/bakeryv2/bakeryV2B.hoa;12.45;0;787549;12.18;0;787549;8.76;0;774581;8.61;0;824362;8.48;0;824362;1.79;0;51912
+automata/rabit/included/fischer/fischerA.hoa;automata/rabit/included/fischer/fischerB.hoa;124.23;0;61372;123.73;0;61372;24.59;0;219895;13.1;0;219895;13.0;0;219895;0.49;0;3550
+automata/rabit/included/fischerv2/fischerV2A.hoa;automata/rabit/included/fischerv2/fischerV2B.hoa;3.06;0;7417;2.97;0;7417;0.07;0;7417;0.05;0;7417;0.05;0;7417;0.0;0;1427
+automata/rabit/included/fischerv3/fischerV3A.hoa;automata/rabit/included/fischerv3/fischerV3B.hoa;0.69;0;7401;0.64;0;7401;0.08;0;7367;0.04;0;7401;0.03;0;7401;0.01;0;1856
+automata/rabit/included/fischerv4/fischerV4A.hoa;automata/rabit/included/fischerv4/fischerV4B.hoa;TO;TO;TO;TO;TO;TO;15.63;0;270788;14.72;0;304451;14.85;0;304451;2.35;0;30089
+automata/rabit/included/peterson/petersonA.hoa;automata/rabit/included/peterson/petersonB.hoa;0.0;0;26;0.0;0;26;0.0;0;26;0.0;0;26;0.0;0;26;0.0;0;24
+automata/rabit/included/phils/philsA.hoa;automata/rabit/included/phils/philsB.hoa;0.02;0;320;0.01;0;320;0.04;0;323;0.02;0;323;0.02;0;323;0.02;0;201
+automata/rabit/notincluded/bakeryv3/bakeryV3A.hoa;automata/rabit/notincluded/bakeryv3/bakeryV3B.hoa;0.43;1;11;0.4;1;11;3.46;1;11;0.42;1;11;0.41;1;11;0.19;1;1149
+automata/rabit/notincluded/fischerv5/fischerV5A.hoa;automata/rabit/notincluded/fischerv5/fischerV5B.hoa;0.34;1;849;0.34;1;849;11.54;1;849;0.4;1;849;0.41;1;849;0.01;1;7219
+automata/rabit/notincluded/philsv2/philsV2A.hoa;automata/rabit/notincluded/philsv2/philsV2B.hoa;0.01;1;15;0.0;1;15;0.02;1;15;0.0;1;15;0.0;1;15;0.0;1;780
+automata/rabit/notincluded/philsv3/philsV3A.hoa;automata/rabit/notincluded/philsv3/philsV3B.hoa;0.0;1;17;0.0;1;17;0.03;1;17;0.01;1;17;0.0;1;17;0.0;1;780
+automata/rabit/notincluded/philsv4/philsV4A.hoa;automata/rabit/notincluded/philsv4/philsV4B.hoa;0.05;1;3690;0.04;1;3690;0.08;1;3690;0.04;1;3690;0.04;1;3690;0.05;1;29539
